@@ -1,6 +1,8 @@
 #!/usr/bin/env pwsh
 $ErrorActionPreference = "Stop"
 Set-StrictMode -Version Latest
+#Requires -Modules @{ ModuleName = "poshy-env-var"; RequiredVersion = "0.5.25" }
+#Requires -Modules @{ ModuleName = "poshy-lucidity"; RequiredVersion = "0.4.1" }
 
 
 if (-not (Test-Command go) -and (-not (Get-Variable -Name PWSHRC_FORCE_MODULES_EXPORT_UNSUPPORTED -Scope Global -ValueOnly -ErrorAction SilentlyContinue))) {
