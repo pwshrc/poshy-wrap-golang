@@ -1,7 +1,7 @@
 #!/usr/bin/env pwsh
 $ErrorActionPreference = "Stop"
 Set-StrictMode -Version Latest
-#Requires -Modules @{ ModuleName = "poshy-env-var"; RequiredVersion = "0.5.25" }
+#Requires -Modules @{ ModuleName = "poshy-env-var"; RequiredVersion = "0.6.0" }
 #Requires -Modules @{ ModuleName = "poshy-lucidity"; RequiredVersion = "0.4.1" }
 
 
